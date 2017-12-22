@@ -1,7 +1,7 @@
 function BoardMember(name, city, training) {
-  this.name = name
-  this.city = city
-  this.training = training
+  this.name = name;
+  this.city = city;
+  this.training = training;
   this.veto = function() {
     return "No, I must disagree"
   }
