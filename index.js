@@ -8,4 +8,7 @@ function BoardMember(name, city, job) {
   this.approve = function() {
     return "You can do that!"
   }
+  this.doCharity = function() {
+    return "I like to help people."
+  }
 }
