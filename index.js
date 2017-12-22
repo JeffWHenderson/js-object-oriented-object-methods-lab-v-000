@@ -1,7 +1,7 @@
-function BoardMember(name, city, job) {
+function BoardMember(name, city, training) {
   this.name = name
   this.city = city
-  this.job = job
+  this.training = training
   this.veto = function() {
     return "No, I must disagree"
   }
@@ -13,5 +13,8 @@ function BoardMember(name, city, job) {
   }
   this.releasePressStatement = function() {
     return "You will see great things from Scuber."
+  }
+  this.sayHi = function() {
+    `Hi, my name is ${this.name}. I am from ${this.city}, and I was trained in ${this.training}.`
   }
 }
